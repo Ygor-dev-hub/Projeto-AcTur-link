@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=-, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<title>Login - Agendamento de Viagens</title>
 </head>
 <body>
-    
+
+<h1>Sistema de Agendamento de Viagens</h1>
+
+<form>
+    <label>Usuário:</label><br>
+    <input type="text" name="usuario"><br><br>
+
+    <label>Senha:</label><br>
+    <input type="password" name="senha"><br><br>
+
+    <label>Perfil:</label><br>
+    <select name="perfil">
+        <option>Administrador</option>
+        <option>Motorista</option>
+        <option>Usuário</option>
+    </select><br><br>
+
+    <input type="submit" value="Entrar">
+</form>
+
+<br>
+
+<a href="/html/criarconta.html">
+    <button type="button">Criar Usuário</button>
+</a>
+
 </body>
 </html>
