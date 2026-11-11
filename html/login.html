@@ -1,35 +1,31 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Login - Agendamento de Viagens</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-
-<h1>Sistema de Agendamento de Viagens</h1>
-
-<form>
-    <label>Usuário:</label><br>
-    <input type="text" name="usuario"><br><br>
-
-    <label>Senha:</label><br>
-    <input type="password" name="senha"><br><br>
-
-    <label>Perfil:</label><br>
-    <select name="perfil">
-        <option>Administrador</option>
-        <option>Motorista</option>
-        <option>Usuário</option>
-    </select><br><br>
-
-    <input type="submit" value="Entrar">
-</form>
-
-<br>
-
-<a href="/html/criarconta.html">
-    <button type="button">Criar Usuário</button>
-</a>
-
+    <login>
+        <center>
+        <user-login>
+            <h2>Login</h2>
+            <form action="">
+                <input type="text" placeholder="Usuário">
+                <input type="password" placeholder="Senha">
+                <button type="submit">Entrar</button>
+            </form>
+        </user-login>
+        <user-register>
+            <h2>Cadastre-se</h2>
+            <form action="">
+                <input type="text" placeholder="Usuário">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <button type="submit">Cadastrar</button>
+            </form>
+    </login>
+    
 </body>
 </html>
