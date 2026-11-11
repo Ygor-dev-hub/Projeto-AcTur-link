@@ -10,11 +10,44 @@ body {
     background-attachment: fixed;
 
     min-height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+
 }
 
 .voltar{
     border-radius: 5px;
     color: beige;
     border: 2px solid;
+    padding: 10px 15px;
+    display: inline-block; 
+    text-decoration: none; 
+    transition: background 0.3s; 
+}
+
+
+form, div, table {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
     padding: 10px;
+    text-align: left;
+}
+
+.voltar {
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid beige; 
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: background 0.3s; 
 }
