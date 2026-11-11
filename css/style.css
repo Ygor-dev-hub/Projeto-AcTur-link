@@ -12,3 +12,9 @@ body {
     min-height: 100vh;
 }
 
+.voltar{
+    border-radius: 5px;
+    color: beige;
+    border: 2px solid;
+    padding: 10px;
+}
